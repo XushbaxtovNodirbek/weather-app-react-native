@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "AwesomeProject",
+    "name": "WeatherApp",
     "slug": "AwesomeProject",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,11 +20,20 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#3678DD"
+      },
+      "package": "com.xnglobal.AwesomeProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2cfef20e-ede0-4b47-b61d-7e4e836f9e88"
+      }
     }
   }
 }
